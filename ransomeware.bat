@@ -40,4 +40,5 @@ color 02
 echo The password was correct. I will recover all your files without any damage.
 pause
 start explorer.exe
+taskkill /f /im cmd.exe
 exit
